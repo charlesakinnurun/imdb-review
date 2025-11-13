@@ -1,4 +1,4 @@
-## Introduction
+# Imdb Movie Review
 ![Movie Review](/image.jpg)
 The project is a sentiment-analysis implementation applied to movie review text, likely using the Internet Movie Database (IMDb) review dataset.
 It contains data of labelled reviews (positive/negative), a Jupyter notebook for exploration and model development, and a Python script to run or deploy the trained model.
