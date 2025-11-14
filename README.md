@@ -11,6 +11,7 @@ While useful as a learning resource, the documentation is minimal and the codeba
 - Data Exploration
 - Data Preprocessing
 - Pre-Training Visualization
+
 ![pre-training-visualization](/output1.png)
 - Data Encoding
 - Feature Engineering
@@ -19,10 +20,12 @@ While useful as a learning resource, the documentation is minimal and the codeba
 - Model Comparison
 - Hyperparameter Tuning
 - Model Evaluation of Tuned Model
+
 ![confusion-matrix-logistic-regression](/output2.png)
 ![confusion-matrix-decison-tree-regression](/output3.png)
 ![confusion-matrix-multinomial-naive-bayes](/output4.png)
 - Post-Training Visualization
+
 ![model-comparison-accuracy-before-and-after](/output5.png)
 ![confusion-matrix-tuned-logistic-regression](/output6.png)
 - Function for New Prediction
