@@ -27,6 +27,14 @@ While useful as a learning resource, the documentation is minimal and the codeba
 ![confusion-matrix-tuned-logistic-regression](/output6.png)
 - Function for New Prediction
 
+
+## Process
+![Screenshot(234)](/Screenshot%20(234).png)
+![Screenshot(235)](/Screenshot%20(235).png)
+![Screenshot(236)](/Screenshot%20(236).png)
+![Screenshot(237)](/Screenshot%20(237).png)
+![Screenshot(238)](/Screenshot%20(238).png)
+
 #### Usage Instructions
 To run this project locally:
 1. Clone the repository:
@@ -55,6 +63,17 @@ customer-personality/
 ├── .gitignore
 ├── LICENSE
 ├── image.jpg       
+├── output1.png     
+├── output2.png     
+├── output3.png     
+├── output4.png     
+├── output5.png     
+├── output6.png     
+├── Screenshot(234).png
+├── Screenshot(235).png
+├── Screenshot(236).png
+├── Screenshot(237).png
+├── Screenshot(238).png
 └── README.md 
 ```
 
