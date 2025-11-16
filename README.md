@@ -6,7 +6,7 @@ The workflow includes text-preprocessing (cleaning, tokenising), feature enginee
 It serves as a practical example of applying machine learning to natural language data, especially text classification tasks.
 While useful as a learning resource, the documentation is minimal and the codebase appears to be designed at an introductory or educational level.
 
-### Procedures
+## Procedures
 - Data Loading
 - Data Exploration
 - Data Preprocessing
@@ -38,7 +38,7 @@ While useful as a learning resource, the documentation is minimal and the codeba
 ![Screenshot(237)](/Screenshot%20(237).png)
 ![Screenshot(238)](/Screenshot%20(238).png)
 
-#### Usage Instructions
+## Usage Instructions
 To run this project locally:
 1. Clone the repository:
 ```
@@ -55,7 +55,7 @@ jupyter notebook model.ipynb
 
 ```
 
-#### Project Structure
+## Project Structure
 ```
 customer-personality/
 │
@@ -77,27 +77,28 @@ customer-personality/
 ├── Screenshot(236).png
 ├── Screenshot(237).png
 ├── Screenshot(238).png
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── SECURITY.md
 └── README.md 
 ```
 
-#### Dependencies
-Key Python libraries used in this project include:
-- pandas
-- numpy
-- scikit-learn
-- seaborn
-- matplotlib
-- jupyter
+## Tools and Dependencies
+- Programming language
+    - Python 
+- libraries
+    - scikit-learn
+    - pandas
+    - numpy
+    - seaborn
+    - matplotlib
+    - yfinance
+- Environment
+    - Jupyter Notebook
+- IDE
+    - VSCode
 
 You can install all dependencies via:
 ```
 pip install -r requirements.txt
 ```
-
-#### Contributing
-Contributions are welcome! If you’d like to suggest improvements — e.g., new modelling algorithms, additional feature engineering, or better documentation — please open an Issue or submit a Pull Request.
-Please ensure your additions are accompanied by clear documentation and, where relevant, updated evaluation results.
-
-#### License
-This project is licensed under the MIT License. See the [LICENSE](/LICENSE)
- file for details.
