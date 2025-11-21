@@ -31,12 +31,7 @@ While useful as a learning resource, the documentation is minimal and the codeba
 - Function for New Prediction
 
 
-## Process
-![Screenshot(234)](/Screenshot%20(234).png)
-![Screenshot(235)](/Screenshot%20(235).png)
-![Screenshot(236)](/Screenshot%20(236).png)
-![Screenshot(237)](/Screenshot%20(237).png)
-![Screenshot(238)](/Screenshot%20(238).png)
+
 
 ## Usage Instructions
 To run this project locally:
@@ -102,3 +97,10 @@ You can install all dependencies via:
 ```
 pip install -r requirements.txt
 ```
+
+## Process
+![Screenshot(234)](/Screenshot%20(234).png)
+![Screenshot(235)](/Screenshot%20(235).png)
+![Screenshot(236)](/Screenshot%20(236).png)
+![Screenshot(237)](/Screenshot%20(237).png)
+![Screenshot(238)](/Screenshot%20(238).png)
