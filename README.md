@@ -31,7 +31,26 @@ While useful as a learning resource, the documentation is minimal and the codeba
 - Function for New Prediction
 
 
+## Tech Stack and Tools
+- Programming language
+    - Python 
+- libraries
+    - scikit-learn
+    - pandas
+    - numpy
+    - seaborn
+    - matplotlib
+    - yfinance
+- Environment
+    - Jupyter Notebook
+    - Anaconda
+- IDE
+    - VSCode
 
+You can install all dependencies via:
+```
+pip install -r requirements.txt
+```
 
 ## Usage Instructions
 To run this project locally:
@@ -73,22 +92,3 @@ customer-personality/
 └── README.md 
 ```
 
-## Tools and Dependencies
-- Programming language
-    - Python 
-- libraries
-    - scikit-learn
-    - pandas
-    - numpy
-    - seaborn
-    - matplotlib
-    - yfinance
-- Environment
-    - Jupyter Notebook
-- IDE
-    - VSCode
-
-You can install all dependencies via:
-```
-pip install -r requirements.txt
-```
