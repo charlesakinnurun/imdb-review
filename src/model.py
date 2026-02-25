@@ -18,6 +18,7 @@ from sklearn.metrics import accuracy_score,classification_report,confusion_matri
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 import warnings
+from config import DATA_PATH
 
 # %%
 # Supress all future warnings to keep the output clean
@@ -30,9 +31,9 @@ warnings.filterwarnings("ignore")
 # Load the dataset (using the file provided in the environment)
 # The dataset cotains movie reviews and their corresponding sentiment (positive/negative)
 try:
-    df = pd.read_csv("imdb.csv")
+    df = pd.read_csv(DATA_PATH)
 except FileNotFoundError:
-    print("Error: 'imdb.csv' was not found. Please ensure the file is accessible")
+    print(f"Error: '{DATA_PATH}' was not found. Please ensure the file is accessible")
     exit()
 
 # %%
