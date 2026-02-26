@@ -4,9 +4,9 @@
 
 <h2 align="center">Workflow</h2>
 
-- <h3><a href="/src/data_loader.py">Data Loading</a></h3>
+- <h4><a href="/src/data_loader.py">Data Loading</a></h4>
     <div>
-<style scoped>
+<!-- <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -18,7 +18,7 @@
     .dataframe thead th {
         text-align: right;
     }
-</style>
+</style>-->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -91,7 +91,7 @@
 <a href="/data/imdb.csv">Check out dataset</a>
 
 
-- <h3>Data Information</h3>
+- <h4>Data Information</h4>
 
     | # | Column    | Non-Null Count | Dtype  |
     |---|-----------|----------------|--------|
@@ -103,33 +103,33 @@
 
     ![Target Distribution](/assets/distribution.png)  -->
 
-- <h3><a href="/src/data_preprocessing.py">Data Preprocessing</a></h3>
+- <h4><a href="/src/data_preprocessing.py">Data Preprocessing</a></h4>
 
     - Check for missing values
     - Check for duplicated rows
     - Drop duplicated rows
 
-- <h3><a href="/assets/sentinment_distribution.png">Pre-Training Visualization</a></h3>
+- <h4><a href="/assets/sentinment_distribution.png">Pre-Training Visualization</a></h4>
 
     ![sentinment distribution](/assets/sentinment_distribution.png)
 
-- <h3><a href="/src/data_preprocessing.py">Data Encoding</a></h3>
+- <h4><a href="/src/data_preprocessing.py">Data Encoding</a></h4>
 
     - Encode the categorical target variable ("sentinment") into numerical format (0 and 1)
 
     - ``positive -> 1``    ``Negative -> 0``
 
-- <h3><a href="/src/feature_engineering.py">Feature Engineering</a></h3>
+- <h4><a href="/src/feature_engineering.py">Feature Engineering</a></h4>
 
     - X = ``df["review"]``
 
     - y = ``df["sentiment_encoded"]``
 
-- <h3><a href="/src/data_preprocessing.py">Data Splitting</a></h3>
+- <h4><a href="/src/data_preprocessing.py">Data Splitting</a></h4>
 
     - 80% training, 20% testing
 
-- <h3><a href="/src/model_training.py">Model Pipelines Setup and Comparison</a></h3>
+- <h4><a href="/src/model_training.py">Model Pipelines Setup and Comparison</a></h4>
 
 
 
@@ -138,7 +138,7 @@
 
 
 
-- <h3><a href="/src/model_evaluation.py">Model Training and Evaluation</a></h3>
+- <h4><a href="/src/model_evaluation.py">Model Training and Evaluation</a></h4>
 
 
     ![logistic regression confusion matrix](/assets/confusion_matrix_logistic.png)
@@ -210,7 +210,7 @@
 
 
 
-- <h3><a href="/src/hyperparameter_tuning.py">Hyperparameter Tuning</a></h3>
+- <h4><a href="/src/hyperparameter_tuning.py">Hyperparameter Tuning</a></h4>
 
     ![tuned logistic regression confusion matrix](/assets/confusion_matrix_tuned_logistic.png)
 
@@ -238,12 +238,12 @@
 <!--![tuned logistic regression confusion matrix](/assets/confusion_matrix_tuned_logistic.png)-->
 
 
-- <h3><a href="/assets/model_accuracy_2.png">Model Accuracy Before Tuning</a></h3>
+- <h4><a href="/assets/model_accuracy_2.png">Model Accuracy Before Tuning</a></h4>
 
     ![model accuarcy before tuning](/assets/model_accuracy_2.png)
 
 
 
-- <h3><a href="/assets/model_accuracy.png">Model Accuracy After Tuning</a></h3>
+- <h4><a href="/assets/model_accuracy.png">Model Accuracy After Tuning</a></h4>
 
     ![model accuracy after tuning](/assets/model_accuracy.png)
